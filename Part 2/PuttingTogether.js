@@ -1,3 +1,5 @@
+// Part 2 lesson 3
+
 // Functions, return, if, arrays and for loop together
 
 const gas = [20, 40, 100, 30]

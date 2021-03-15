@@ -4,24 +4,122 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS Basics</title>
+    <style>
+      .colors{
+        background: teal;
+        color: plum;
+      }
+      .text{
+        font-size: 2rem;
+        letter-spacing: 1rem;
+      }
+      .red{
+        background-color: red;
+        color: purple;
+      }
+      .blue{
+        background-color: navy;
+        color: aquamarine;
+      }
+      .btn3{
+        background: crimson;
+        color: white;
+        border-radius: 3px;
+        border: none;
+        font-size: 1.2rem;
+      }
+      .title{
+        background: cadetblue;
+        color: beige;
+        font-size: 2rem;
+        text-transform: uppercase;
+      }
+      #link5{
+        display: inline-block;
+        margin-top: 100vh;
+      }
+    </style>
   </head>
   <body>
-    <h1>Javascript Tutorial</h1>
-    <!-- <script src="./Part 1/JSCoursePT1.js"></script> -->
-    <!-- <script src="./Part 1/FunctionsAndObjects.js"></script> -->
-    <!-- <script src="./Part 1/StringMethods.js"></script> -->
-    <!-- <script src="./Part 1/SwitchAndLoops.js"></script> -->
-
-    <!-- <script src="./Part 2/JSCoursePT2.js"></script> -->
-    <!-- <script src="./Part 2/ArrayProperties.js"></script> -->
-    <!-- <script src="./Part 2/PuttingTogether.js"></script> -->
-
-    <!-- <script src="./Part 3/JSCoursePT3.js"></script> -->
-    <!-- <script src="./Part 3/Scope.js"></script> -->
-    <!-- <script src="./Part 3/VariableLookup.js"></script> -->
-    <!-- <script src="./Part 3/HigherOderAndCallback.js"></script> -->
-    <!-- <script src="./Part 3/ArrayMethods.js"></script> -->
-
-    <script src="./Part 4/Math.js"></script>
+    <h1 id="title">Hello JS Tutorial</h1>
+    <button class="btn" id="btn">Click Me</button>
+    <button class="btn2" id="btn2">Click Me</button>
+    <ul id="result">
+      <li class="special first">list item 1</li>
+      <li class="special">list item 2</li>
+      <li class="special">list item 3</li>
+      <li class="special last">list item 4</li>
+    </ul>
+    <ul id="specialList">
+      <li class="special first">list item 1</li>
+      <li class="special">list item 2</li>
+      <li class="special" id="specialItem">list item 3</li>
+      <li class="special last">list item 4</li>
+    </ul>
+    <div class="heading1">
+      <h1>Hello World</h1>
+      <div class="second">
+        <h2>Nested Second Heading</h2>
+      </div>
+    </div>
+    <ul>
+      <li class="firstNew">I have class of firstNew</li>
+      <a href="first.html" id="link">Random Link to Nowhere</a>
+      <li>I have no attributes for now...</li>
+    </ul>
+    <h1 id="firstHeading" class="colors">I'm first element</h1>
+    <h1 id="secondHeading">I'm second element</h1>
+    <h1 id="thirdHeading">I'm third element</h1>
+    <div class="resultPt5">
+      <h1 class="red">I am the child of result part 5 class</h1>
+    </div>
+    <div class="resultNew">
+      <h1>I am the child of resultNew</h1>
+    </div>
+    <div class="random">I am just a random div looking for some CSS</div>
+    <ul id="firstUl">
+      <h4>List Heading</h3>
+      <li class="item1">list item</li>
+      <li>list item</li>
+    </ul>
+    <div id="second">
+      I have some text content
+    </div>
+    <h3>Events in Javascript</h2>
+    <p>Hey I can trigger an event</p>
+    <button class="btn3">click me</button>
+    <button class="btn4">mouse events</button>
+    <input type="text" id="name"/>
+    <br>
+    <button class="btn5">event object button</button>
+    <h1 id="headingEventObj">some heading</h1>
+    <a href="#" id="link5">Random Link to Nowhere 2</a>
   </body>
+  <!-- <script src="./Part 1/JSCoursePT1.js"></script> -->
+  <!-- <script src="./Part 1/FunctionsAndObjects.js"></script> -->
+  <!-- <script src="./Part 1/StringMethods.js"></script> -->
+  <!-- <script src="./Part 1/SwitchAndLoops.js"></script> -->
+
+  <!-- <script src="./Part 2/JSCoursePT2.js"></script> -->
+  <!-- <script src="./Part 2/ArrayProperties.js"></script> -->
+  <!-- <script src="./Part 2/PuttingTogether.js"></script> -->
+
+  <!-- <script src="./Part 3/JSCoursePT3.js"></script> -->
+  <!-- <script src="./Part 3/Scope.js"></script> -->
+  <!-- <script src="./Part 3/VariableLookup.js"></script> -->
+  <!-- <script src="./Part 3/HigherOderAndCallback.js"></script> -->
+  <!-- <script src="./Part 3/ArrayMethods.js"></script> -->
+
+  <!-- <script src="./Part 4/Math.js"></script> -->
+  <!-- <script src="./Part 4/Math.js"></script> -->
+  <!-- <script src="./Part 4/Date.js"></script> -->
+
+  <!-- <script src="./Part 5 The Dom/JSCoursePT5.js"></script> -->
+  <!-- <script src="./Part 5 The Dom/GetElement.js"></script> -->
+  <!-- <script src="./Part 5 The Dom/NavigateDom.js"></script> -->
+  <!-- <script src="./Part 5 The Dom/NavigateDomPt2.js"></script> -->
+  <!-- <script src="./Part 5 The Dom/NavigateDomPt3.js"></script> -->
+
+  <!-- <script src="./Part 6 Events/JSCourstPT4.js"></script> -->
+  <script src="./Part 6 Events/EventObj.js"></script>
 </html>

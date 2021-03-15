@@ -1,3 +1,5 @@
+// Part 2 lesson 2
+
 // Array properties! there are a bunch look them up!
 
 let names = ["Austin", "Renee", "Luna", "Jerry", "Berry"]

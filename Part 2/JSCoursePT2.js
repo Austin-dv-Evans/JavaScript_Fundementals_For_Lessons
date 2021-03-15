@@ -1,4 +1,4 @@
-// Part 2
+// Part 2 lesson 1
 
 // Template Literals - es6+
 // Backtick characters `` - above tab

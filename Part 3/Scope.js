@@ -1,3 +1,5 @@
+// Part 3 lesson 2
+
 // Global Scope vs Local Scope
 
 // Global Scope

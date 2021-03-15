@@ -1,3 +1,5 @@
+// Part 3 Final Lesson
+
 // Powerful Array Methods
 // forEach, map, filter, find, reduce
 // Iterate over array - no for loop required
