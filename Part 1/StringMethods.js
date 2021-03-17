@@ -1,3 +1,5 @@
+// Part 1 Lesson 3
+
 // string properties and methods
 let text = "Peter Johnson"
 let result3 = text.replace("Peter", "Austin")

@@ -1,4 +1,4 @@
-// Part 2 lesson 2
+// Part 2 Lesson 2
 
 // Array properties! there are a bunch look them up!
 

@@ -1,5 +1,8 @@
+// Part 1 Lesson 4
+
 // switch statements
-// dice values
+// loops
+
 
 const dice = 1
 

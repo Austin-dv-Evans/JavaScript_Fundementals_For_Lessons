@@ -1,3 +1,5 @@
+// Part 1 Lesson 2
+
 // Functions
 const hello = () => {
   console.log("This is inside a function!!")

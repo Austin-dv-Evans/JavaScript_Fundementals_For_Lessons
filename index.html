@@ -4,43 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS Basics</title>
-    <style>
-      .colors{
-        background: teal;
-        color: plum;
-      }
-      .text{
-        font-size: 2rem;
-        letter-spacing: 1rem;
-      }
-      .red{
-        background-color: red;
-        color: purple;
-      }
-      .blue{
-        background-color: navy;
-        color: aquamarine;
-      }
-      .btn3{
-        background: crimson;
-        color: white;
-        border-radius: 3px;
-        border: none;
-        font-size: 1.2rem;
-      }
-      .title{
-        background: cadetblue;
-        color: beige;
-        font-size: 2rem;
-        text-transform: uppercase;
-      }
-      #link5{
-        display: inline-block;
-        margin-top: 100vh;
-      }
-    </style>
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
+    <!-- Get Element File & NavigateDom Pt 1-->
     <h1 id="title">Hello JS Tutorial</h1>
     <button class="btn" id="btn">Click Me</button>
     <button class="btn2" id="btn2">Click Me</button>
@@ -67,6 +34,7 @@
       <a href="first.html" id="link">Random Link to Nowhere</a>
       <li>I have no attributes for now...</li>
     </ul>
+    <!-- Navigate Dom Part 2 -->
     <h1 id="firstHeading" class="colors">I'm first element</h1>
     <h1 id="secondHeading">I'm second element</h1>
     <h1 id="thirdHeading">I'm third element</h1>
@@ -77,6 +45,7 @@
       <h1>I am the child of resultNew</h1>
     </div>
     <div class="random">I am just a random div looking for some CSS</div>
+    <!-- Navigate Dom Part 3 -->
     <ul id="firstUl">
       <h4>List Heading</h3>
       <li class="item1">list item</li>
@@ -87,6 +56,7 @@
     </div>
     <h3>Events in Javascript</h2>
     <p>Hey I can trigger an event</p>
+    <!-- JS Course Part 6 -->
     <button class="btn3">click me</button>
     <button class="btn4">mouse events</button>
     <input type="text" id="name"/>
@@ -94,6 +64,29 @@
     <button class="btn5">event object button</button>
     <h1 id="headingEventObj">some heading</h1>
     <a href="#" id="link5">Random Link to Nowhere 2</a>
+    <button class="btn6">First Button</button>
+    <button class="btn6">Nested <strong>Second <strong> Button</strong></strong></button>
+    <button class="btn6">Third Button</button>
+    <!-- Event Bubbling / Capturing -->
+    <div class="container">
+      <ul class="list-items">
+        <li class="item6"><a href="#" class="link6">link</a></li>
+        <li class="item6"><a href="#" class="link6">link</a></li>
+        <li class="item6"><a href="#" class="link6">link</a></li>
+        <li class="item6"><a href="#" class="link6">link</a></li>
+      </ul>
+    </div>
+    <!-- Event Propagation Example -->
+    <div class="container2">
+      <h1 class="headingEvp">I'm inside container</h1>
+    </div>
+    <button class="btn7">click me</button>
+    <!-- Form Submit Example -->
+    <form action="" id="form">
+      <input type="text" id="inputName">
+      <input type="password" id="password">
+      <input type="submit" id="submit">
+    </form>
   </body>
   <!-- <script src="./Part 1/JSCoursePT1.js"></script> -->
   <!-- <script src="./Part 1/FunctionsAndObjects.js"></script> -->
@@ -107,10 +100,9 @@
   <!-- <script src="./Part 3/JSCoursePT3.js"></script> -->
   <!-- <script src="./Part 3/Scope.js"></script> -->
   <!-- <script src="./Part 3/VariableLookup.js"></script> -->
-  <!-- <script src="./Part 3/HigherOderAndCallback.js"></script> -->
+  <!-- <script src="./Part 3/HigherOrderAndCallback.js"></script> -->
   <!-- <script src="./Part 3/ArrayMethods.js"></script> -->
 
-  <!-- <script src="./Part 4/Math.js"></script> -->
   <!-- <script src="./Part 4/Math.js"></script> -->
   <!-- <script src="./Part 4/Date.js"></script> -->
 
@@ -120,6 +112,7 @@
   <!-- <script src="./Part 5 The Dom/NavigateDomPt2.js"></script> -->
   <!-- <script src="./Part 5 The Dom/NavigateDomPt3.js"></script> -->
 
-  <!-- <script src="./Part 6 Events/JSCourstPT4.js"></script> -->
-  <script src="./Part 6 Events/EventObj.js"></script>
+  <!-- <script src="./Part 6 Events/JSCoursePT6.js"></script> -->
+  <!-- <script src="./Part 6 Events/EventObj.js"></script> -->
+  <script src="./Part 6 Events/FormAndStorage.js"></script>
 </html>

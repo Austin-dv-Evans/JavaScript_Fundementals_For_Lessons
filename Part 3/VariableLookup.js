@@ -1,4 +1,4 @@
-// Part 3 lesson 3,  this lesson needs more examples
+// Part 3 Lesson 3
 
 // Variable Lookup
 // {} - code block

@@ -1,6 +1,10 @@
+// this section is a work in progress and will soon have multiple
+// challenges and algorithms to accompany different lessons
+// for now these are random algorithms 
+
+// rewrite as a switch statement
 function getGrade(score) {
   let grade
-  // Write your code here
   if (score > 25 && score <= 30) {
     grade = "A"
     console.log(grade)
@@ -21,19 +25,20 @@ function getGrade(score) {
     console.log(grade)
   }
 }
-let strin = 'acbbbbd'
-console.log(strin[0])
 
+
+// write a function that takes in two parameters
+// length and width and returns the perimeter and the area
 function Rectangle(a, b) {
   let perimeter = 2 * (a + b)
   let area = a * b
-  console.log(a)
-  console.log(b)
-  console.log(perimeter)
-  console.log(area)
+  return [perimeter, area]
 }
 Rectangle(4,5)
 
+
+// determine if any two values in an array multiplied together
+// are higher than the sum of the array * 2
 function ArrayChallenge(arr) {
   let total = 0
   for (val of arr) {
@@ -49,14 +54,13 @@ function ArrayChallenge(arr) {
   }
 
   let newHighValue = null
-
   multipliedElementArr.forEach((element) => {
     if (element > dblTotal) {
       newHighValue = element
     }
   })
 
-  return console.log(newHighValue ? "true" : "false")
+  return newHighValue ? "true" : "false"
 }
 
 ArrayChallenge([2,20,10,2,3,4,1])
